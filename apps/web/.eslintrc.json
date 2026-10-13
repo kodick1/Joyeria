@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "settings": {
+    "next": {
+      "rootDir": "."
+    }
+  },
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "error",
+    "@next/next/no-html-link-for-pages": "off"
+  }
+}
